@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visit Universe - Landing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+                            <!-- Header section start -->
+        <header id="header"></header>
+
+            <div class="background-vid-container">
+
+                <a id="home-link" href="index.html"><img id="header-img" src="img/home-logo.png" alt="cosmos-guy-logo-home" height="60px" width="60px"></a>
+
+                <nav id="nav-bar">
+                    <ul>
+                        <li class="nav-link"><a href="#slider_container">Gallery</a></li>
+                        <li class="nav-link"><a href="#">Pricing</a></li>
+                        <li class="nav-link"><a href="#email">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="overlay"></div>
+
+                <video poster="img/universe2.jpeg" autoplay="true" loop muted >
+                    <source src="img/universe-vid.mp4">
+                </video>
+
+                <div class="header-content">
+                    <div class="header-content-inner">
+                        <h2 id="header-header">Visit Universe</h2>     
+                        <button id="header-btn" type="button" disabled>Let the journey begin<span class="tooltip-text">...soon</span></button>
+                    </div>
+                </div>
+                
+            </div>
+   
+        </header> 
+
+
+        <section class="mid-content-video">
+
+            <img id="behind-vid-img" src="/img/universe5.jpg" alt="universe-behind-video">
+            <div class="overlay"></div>
+
+            <video id="video" width="560" height="320"  controls>
+                <source src="img/satellite-vid.mp4#t=3">
+                Your browser does not support the video tag.
+            </video>
+
+            <section class="inner-mid-content">
+
+                <div class="form-container">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <h3 id="form-header">Get in touch</h3>
+                        <label id="for-email" for="email">Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Your Email address..">
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+                </div>
+
+                <div class="gallery-container">
+                    <img id="slider_container" name="img_slider" alt="gallery-slider"  width="400px" height="225px">
+                </div>
+
+                <div class="pricing-container">
+                    
+                </div>
+
+                <footer>
+                    <div class="social"></div>
+                    <p id="coded-by">Visit Universe - Coded by: Ilija</p>
+                </footer>
+
+            </section>
+
+
+        </section>
+    
+        
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
